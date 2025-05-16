@@ -1,0 +1,185 @@
+/* Réinitialisation simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2602ee;
+  line-height: 1.6;
+}
+
+audio {  background-color: antiquewhite;
+       width: 800;
+       height: 500; 
+       margin-right: 50px;
+}
+
+
+
+.player{ background-color:hwb(0 6% 16% / 0.815);
+  display: flex;
+    
+
+}
+
+h1 { color: #ffffff;
+  text-align: left;
+  padding-left: 10%;
+  
+
+}
+
+/* ---------- En-tête ---------- */
+header {
+  background-color: orange;
+  padding: 0px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+.banier h2 {  
+  background-color:orange; 
+  text-align: center;
+  font-size: 150%;
+padding: auto;
+}
+
+ 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.logo2 {
+  height: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3503eb;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* ---------- Bannière ---------- */
+.banier {
+  background-size: cover;
+  background-position: center;
+  height: none;
+}
+
+/* ---------- Section principale ---------- */
+section {
+  padding:auto ;
+  max-width: 800px;
+  margin: left;
+
+}
+
+.contenu {
+  text-align: center;
+  margin-bottom:75px;
+}
+
+
+
+.contenu p {
+  color: #130101;
+font-size: 120%;
+text-align: center;
+}
+
+
+
+/* ---------- Formulaire ---------- */
+.login {display: flexbox;
+  align-items: flex-end;
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- Footer & Réseaux sociaux ---------- */
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer .social p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer .social img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+footer .social img:hover {
+  transform: scale(1.1);
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.95em;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
